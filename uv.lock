@@ -247,6 +247,15 @@ wheels = [
 ]
 
 [[package]]
+name = "cloudpickle"
+version = "3.1.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/52/39/069100b84d7418bc358d81669d5748efb14b9cceacd2f9c75f550424132f/cloudpickle-3.1.1.tar.gz", hash = "sha256:b216fa8ae4019d5482a8ac3c95d8f6346115d8835911fd4aefd1a445e4242c64", size = 22113 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7e/e8/64c37fadfc2816a7701fa8a6ed8d87327c7d54eacfbfb6edab14a2f2be75/cloudpickle-3.1.1-py3-none-any.whl", hash = "sha256:c8c5a44295039331ee9dad40ba100a9c7297b6f988e50e87ccdf3765a668350e", size = 20992 },
+]
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 source = { registry = "https://pypi.org/simple" }
@@ -328,6 +337,29 @@ wheels = [
 ]
 
 [[package]]
+name = "deap"
+version = "1.4.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ed/cb/ca39adc56ba747ac4e5b58cc157dd9df8c25e65690bf30552bdf44aca62f/deap-1.4.2.tar.gz", hash = "sha256:d679be3373db8ba912b4664260ca29c7aca10372ff5a968231047b49efc22ac5", size = 1072401 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ad/18/3895db9770f6e91da753a535dac8b010b6495d709fd2f6bb1dd412614668/deap-1.4.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:0c4bea9639fcf9d894e902fd9c00e3bd3bf3eb73fe02b9310e13653a777ff37c", size = 111433 },
+    { url = "https://files.pythonhosted.org/packages/0a/22/5c394ac277d50082f0c107fcff27110f4eb880ae8b3b857fccfead9b7159/deap-1.4.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:b4d6f9762cc588b09131893dd96e79c8e68d4a75773687cc7b0c3de33fdef0f3", size = 135184 },
+    { url = "https://files.pythonhosted.org/packages/cb/0d/5d719a66aabaaf10d2a1bff4e46812b13a74d08a81597f1558fde39603b9/deap-1.4.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ccc80eca142e35365fc8f3a2028977516b8af916c198132823ac92c6be5612d3", size = 135375 },
+    { url = "https://files.pythonhosted.org/packages/e9/bd/654aa594a0ac14063fe591c3339062441eeda3815017e2f66d0b762cccb0/deap-1.4.2-cp311-cp311-win_amd64.whl", hash = "sha256:19275e9099ac4c6884148be78451bbc90a8fb2d67fa2e42f3c0d85a90021271e", size = 109826 },
+    { url = "https://files.pythonhosted.org/packages/e9/ee/e8e8022a2ac57d0b9373409ed69cfbbabff4da02ba384fb238f48e313e32/deap-1.4.2-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:12c83017b69bf2f075cf35b32a17e1e652bb308abdfddbaf7156f4425b3e6b38", size = 111572 },
+    { url = "https://files.pythonhosted.org/packages/9a/41/6b4fb83b1d924e72847b64c95375c10dfd78b1fde95dbdb0eddf47295080/deap-1.4.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:dbb57e6624849afcb83dae4aa160081921ff84c2cffbb4c0720ffb86dedda8a8", size = 135613 },
+    { url = "https://files.pythonhosted.org/packages/46/20/840d27f5096f97e0154a8f22affa29727d61437224adda3793e93b7260ff/deap-1.4.2-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4776e0e1c5289f4b3abb81315c58f531878fe9efe6e80314347541b743b3c8ec", size = 135805 },
+    { url = "https://files.pythonhosted.org/packages/61/c0/f1a383cbb852e4d486e3213cd6d4292f4f789ec32631da15646d3eb13165/deap-1.4.2-cp312-cp312-win_amd64.whl", hash = "sha256:02b8b664cfa0b6c18ff3e36d0b982fb66f38fb98c5b4292515a305527d57294e", size = 109874 },
+    { url = "https://files.pythonhosted.org/packages/33/6f/4b901790a492a524eb8982ff2c033bf726a195aef5daefd5b3b176830326/deap-1.4.2-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:480a544b5ff1954a69149669846a35fe394fef9ef910b9c05d33e09c16e03bdb", size = 111579 },
+    { url = "https://files.pythonhosted.org/packages/aa/6d/834c05dfc1503fd6c6a7d1d9cfa9ca7048c575d11dbf151f1a1343e88e32/deap-1.4.2-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4c5052a06d5321c6bc2a28c12a23fccf2af380d06e168e93c833f32a18e10773", size = 135565 },
+    { url = "https://files.pythonhosted.org/packages/e7/81/b6b25f35c316380033f7258e2d47f555e1497a82fa8ec881d5082df98feb/deap-1.4.2-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b97df633ba675052773aa9e9bddf51df2205e225e08e332e960e7867111d438b", size = 135738 },
+    { url = "https://files.pythonhosted.org/packages/6e/22/614264336b00b1a01447e31c941fd4576478b5d32184dbb552db27b1c2a1/deap-1.4.2-cp313-cp313-win_amd64.whl", hash = "sha256:1abab976c75b0f18c36e81f968fcc77fac69fc9bedbab8be3323ca376f6fcfa4", size = 109881 },
+]
+
+[[package]]
 name = "debugpy"
 version = "1.8.12"
 source = { registry = "https://pypi.org/simple" }
@@ -371,6 +403,7 @@ name = "effects-parameters"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "deap" },
     { name = "ffmpeg-python" },
     { name = "ipykernel" },
     { name = "jupyterlab" },
@@ -378,11 +411,13 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pydub" },
+    { name = "pygad" },
     { name = "sox" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "deap", specifier = ">=1.4.2" },
     { name = "ffmpeg-python", specifier = ">=0.2.0" },
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "jupyterlab", specifier = ">=4.3.4" },
@@ -390,6 +425,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.0" },
     { name = "numpy", specifier = ">=2.0.2" },
     { name = "pydub", specifier = ">=0.25.1" },
+    { name = "pygad", specifier = ">=3.4.0" },
     { name = "sox", specifier = ">=1.5.0" },
 ]
 
@@ -1410,6 +1446,20 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/fe/9a/e6bca0eed82db26562c73b5076539a4a08d3cffd19c3cc5913a3e61145fd/pydub-0.25.1.tar.gz", hash = "sha256:980a33ce9949cab2a569606b65674d748ecbca4f0796887fd6f46173a7b0d30f", size = 38326 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a6/53/d78dc063216e62fc55f6b2eebb447f6a4b0a59f55c8406376f76bf959b08/pydub-0.25.1-py2.py3-none-any.whl", hash = "sha256:65617e33033874b59d87db603aa1ed450633288aefead953b30bded59cb599a6", size = 32327 },
+]
+
+[[package]]
+name = "pygad"
+version = "3.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "cloudpickle" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/00/eb/f19a8a238792c823c862a5eaec17148d4b891d44708bebbd48bd2c826887/pygad-3.4.0.tar.gz", hash = "sha256:89d9f95ee2977bf25c98dec18b1f86cc7788e2edb8c263c2f0386d05a3c25aec", size = 105832 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/76/6f/34abfc976dbe4f11d533e9363f91e767f81d0a49b36186abcb52d6a27896/pygad-3.4.0-py3-none-any.whl", hash = "sha256:e6b5315e3bdc7fc7f2a1d18cc71ab7592f026f9c249ffe8a8c0d4bb6b0e91127", size = 86775 },
 ]
 
 [[package]]
